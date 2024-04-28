@@ -1,0 +1,81 @@
+*{margin: 0;
+padding: 0;
+}
+body { background-color: rgb(81, 87, 93);}
+.a1{
+    color: orangered; 
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+.a2{
+    color: orangered;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+.a3{
+    color: orangered;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+.a4{
+    color: orangered;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+.p1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+div {
+    width: 400px; height: 150px;
+    background-color: blueviolet;
+    border: 4px dotted;
+    padding: 40px;
+    margin: 50px;
+    display: inline-table;
+    text-align: center;
+}
+div p{
+    display: table-cell;
+    vertical-align: middle;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    text-transform: uppercase;
+    color: black;
+}
+table tr th i{
+    padding: 20px;
+font-size: 30px;
+}
+table tr td{
+    font-size: 20px;
+}
+body h1{
+    color: beige;
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+header img{
+    width: 1300px; height: 700px;
+    
+}
+header{
+    display: flex; 
+}
+header nav ul h2 li a{
+    margin: 30px;
+    text-decoration: none;
+   
+}
+footer{
+    color: beige;
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+header nav ul h2 li{
+    margin: 30px;
+    list-style: none;
+}
